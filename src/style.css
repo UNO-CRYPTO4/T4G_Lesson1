@@ -78,3 +78,29 @@
     width: 250px;
     height: auto;
 }
+
+.Cars div button{
+    color: white;
+    background-color: brown;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 23px;
+    opacity: 0.9;
+
+}
+
+.Cars div button:hover{
+    color: brown;
+    border: 1px solid brown;
+    background-color: white;
+}
+.Cars div img{
+    width: 250px;
+    height: 400px;
+}
+
+.Cars .sm-car:hover{
+    border: 2px solid brown;
+    padding: 5px;
+    box-shadow: 12px 12px brown;
+}
