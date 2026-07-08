@@ -4,16 +4,30 @@
          border: 4px solid greenyellow;
          margin: 42px;
         } */
+/* styling across all pages */
 
         nav{
             border: 2px solid blueviolet;
         }
 
+        nav ul{
+            display: flex;
+            justify-content: flex-end;
+            gap: 15px;
+            }
+
         nav ul li{
             list-style: none;
-
         }
 
+        nav ul li a{
+            text-decoration: none;
+            color: black;
+        }
+
+        /* Styling ends across all pages */
+
+        /* styling begins for homepage */
         .img1{
             border: 10px double magenta; /* the 3 values represent: border-width border-style border color
             margin: 10px 50px; /*the values represent: top&down left&right */
@@ -42,9 +56,25 @@
             height: 25px;
             border: 3px solid forestgreen;
             border-radius: 15px;
+            cursor: pointer;
          }
 
 
          body{
             /* overflow-y: hidden; */
          }
+         /* styling ends in the homepage */
+
+         /* styling login page begins here */
+.Cars{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 50px ;
+    
+    
+}
+
+.Cars div img{
+    width: 250px;
+    height: auto;
+}
